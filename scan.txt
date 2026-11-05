@@ -1,0 +1,40 @@
+# Nmap 7.993 scan initiated Thu Nov  5 20:11:45 2026 as: nmap -sS -oN scan.txt 192.168.1.106/24
+Nmap scan report for 192.168.1.1
+Host is up (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+1900/tcp open  upnp
+MAC Address: EC:75:0C:B7:ED:60 (TP-Link Systems)
+
+Nmap scan report for 192.168.1.104
+Host is up (0.016s latency).
+All 1000 scanned ports on 192.168.1.104 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 9E:59:40:6E:62:1A (Unknown)
+
+Nmap scan report for 192.168.1.105
+Host is up (0.022s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+8081/tcp open  blackice-icecap
+MAC Address: 04:F0:EE:1C:51:1A (Intel Corporate)
+
+Nmap scan report for 192.168.1.106
+Host is up (0.000098s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+2869/tcp open  icslap
+
+# Nmap done at Thu Nov  5 20:11:55 2026 -- 256 IP addresses (4 hosts up) scanned in 10.05 seconds
